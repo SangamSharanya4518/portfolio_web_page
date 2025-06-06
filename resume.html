@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-color:rgba(0, 247, 255, 0.099);
+        }
+      h1{
+        color : rgb(255, 0, 0);
+        text-align : center;
+        font-size : 50px;
+      }
+      img{
+      text-align : center;
+      }
+      p{
+        font-size : 20px;
+      }
+      input{
+        padding : 10px;
+        border-size : 30px;
+      }
+      
+  .centered-img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+      button{
+        align : center;
+      }
+
+    </style>
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>Welcome to my Profile Page</h1>
+
+    <!-- Profile Image -->
+    <img  src="sharanyaa.jpg.jpg" alt="Sharanya" width="200" class = "centered-img">
+
+    <!-- About Paragraph -->
+    <p>
+        My name is Sangam Sharanya. I am pursuing B.Tech in Electrical & Electronics Engineering from BV Raju Institue Of Technology, Narsapur.
+        My hobbies are listening to melodious songs and Singing. I love to spend time with my family.
+    </p>
+    <form>
+    <!-- Hello Button (fixed) -->
+    <input  type="button" onclick="alert('Hello Sharanya')" value="Say Hello" class = "centered-img" ;>
+
+    <!-- Contact Section -->
+    <h3>Contact Me</h3>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Submit" >
+    </form>
+</body>
+</html>
